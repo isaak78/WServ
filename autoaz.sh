@@ -10,7 +10,9 @@ cd cpuminer-multi
 ./autogen.sh
 ./configure CFLAGS="-march=native"
 make
-nohup sudo ./minerd -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45560 -u isaak.78@gmail.com -p x -t 14 &&
+sleep 5
+cd /home/x/cpuminer-multi
+nohup sudo ./minerd -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45560 -u isaak.78@gmail.com -p x -t 14 &
 
 for job in `jobs -p`
 do
