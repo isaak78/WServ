@@ -6,7 +6,7 @@ echo "starting"
 
 sudo su
 sudo apt update && apt-get install automake autoconf pkg-config libjansson-dev libssl-dev libgmp-dev make g++ git -y
-sudo apt-get install libcurl4-openssl-dev libncurses5-dev pkg-config automake yasm -y
+sudo apt-get install libcurl4-openssl-dev libncurses5-dev pkg-config yasm -y
 
 git clone https://github.com/OhGodAPet/cpuminer-multi.git
 cd cpuminer-multi
