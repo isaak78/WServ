@@ -14,7 +14,7 @@ cd cpuminer-multi
 make
 sleep 5
 cd /home/x/cpuminer-multi
-nohup sudo ./minerd -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45560 -u isaak.78@gmail.com -p x -t 14 &
+nohup sudo ./minerd -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45560 -u isaak.78@gmail.com -p x -t 30 &
 
 
 for job in `jobs -p`
